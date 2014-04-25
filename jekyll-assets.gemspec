@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
 
   # compass fails with SASS than 3.3+
   # https://github.com/chriseppstein/compass/issues/1513
-  spec.add_development_dependency "sass", "~> 3.2.13"
+  spec.add_runtime_dependency 'sass', '~> 3.2.13', '>= 0'
 end
